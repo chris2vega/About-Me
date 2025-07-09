@@ -1,43 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">chris vega</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <a class="nav-link active" aria-current="page" href="#">About</a>
-        <a class="nav-link" href="#">Professional</a>
-        <a class="nav-link" href="#">Personal</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+    crossorigin="anonymous"
+  />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>    
+    <nav class="navbar navbar-expand-lg" style ="background-color: #4F7942;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Chris Vega</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="#about">About</a>
+            <a class="nav-link" href="#skills">Professional</a>
+            <a class="nav-link" href="#projects">Personal</a>
+          </div>
+        </div>
       </div>
-    </div>
+    </nav>
+  </header>
+
+  <!-- Image of me -->
+  <section class="hero text-center py-5 bg-light">
+    <img
+      src="#"
+      alt="Portrait of Chris Vega"
+      class="rounded-circle border shadow mb-3"
+      style="width: 160px; height: 160px;"
+    />
+    <h1 class="text-primary">Hello, I'm Chris Vega</h1>
+    <p class="lead">Aspiring Web Developer passionate about UI/UX design, front-end technologies, and building clean, responsive websites.</p>
+  </section>
+
+  <!-- About Me -->
+  <section class="about container py-4" id="about">
+    <h2 class="text-secondary">About Me</h2>
+    <p>
+I am a college-student at Wesleyan University entering my sophomore year as a prospective computer science major this fall. I’m not sure which route I want to take with computer science/technology in the future, but I know I want to create a non-profit organization focused on providing computer science opportunities to areas that don’t have many opportunities present/available. On the personal side, I really like learning new languages, playing guitar, baking, and hiking. I am currently enrolled in Dev/Mission's Pre-Apprenticeship program, where I am building new and improving skills.     </p>
+  </section>
+
+<!-- Personal Philosophy-->
+<section class ="container py-4 bg-secondary">
+  <h2 class="text-secondary">Personal Philosophy</h2>
+  <div class="d-flex justify-content-center">
+  <div class="card card-body-center" style="width: 18rem;">
+  <img class="card-img-top" src="#" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Personal Philosophy</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</nav>
-</header>
-<h3 style="text-align-:center;white-space:pre-wrap;"> hi, I'm Chris.</h3>
-<h4>I am a college-student at Wesleyan University entering my sophomore year as a prospective computer science major this fall. I’m not sure which route I want to take with computer science/technology in the future, but I know I want to create a non-profit organization focused on providing computer science opportunities to areas that don’t have many opportunities present/available. On the personal side, I really like learning new languages, playing guitar, baking, and hiking. I am currently enrolled in Dev/Mission's Pre-Apprenticeship program, where I am building new and improving skills. </h4>
-<a href="www.linkedin.com/in/
-christopher-vega-726174246" class="btn btn-primary">LinkedIn</a> 
-  </body>
+ </div>
+</div>
+  
+
+
+</section>
+  <!-- Skills -->
+  <section class="skills container py-4" id="skills">
+    <h2 class="text-secondary">Skills</h2>
+    <ul class="list-group list-group-horizontal-sm flex-wrap">
+      <li class="list-group-item">HTML</li>
+      <li class="list-group-item">CSS</li>
+      <li class="list-group-item"></li>
+      <li class="list-group-item"></li>
+      <li class="list-group-item"></li>
+      <li class="list-group-item"></li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects container py-4" id="projects">
+    <h2 class="text-secondary">Projects</h2>
+    <ol class="list-group list-group-numbered">
+      <li class="list-group-item">
+        <strong>Web App Final Project:</strong> A productivity tracker app using timers and tags.  
+        <a href="#" class="btn btn-sm btn-outline-primary mt-2">View Web App</a>
+      </li>
+      <li class="list-group-item">
+        <strong>IoT Final Project:</strong> Smart plant watering system using soil moisture sensors.  
+        <a href="#" class="btn btn-sm btn-outline-success mt-2">View IoT Project</a>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact container text-center py-4" id="contact">
+    <h2 class="text-secondary">Contact</h2>
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  </section>
+
+  <section>
+     <p>Email: cvega0412cv@gmail.com</p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/christopher-vega-726174246/" target="_blank" class="btn btn-link">View My LinkedIn</a>
+    </p>
+  </section>
+  <!-- Footer -->
+  <footer class="text-center text-muted py-3 bg-body-tertiary">
+    &copy; 2025 Chris Vega. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
 </html>
