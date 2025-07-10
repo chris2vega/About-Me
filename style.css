@@ -1,3 +1,19 @@
 .nav {
-   background-color: #4F7942; 
+   background-color: #4F7942;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Keeps it above other elements */
+}
+
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }

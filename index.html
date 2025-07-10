@@ -18,14 +18,19 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
-<body>
+
+
 
   <!-- Navbar -->
   <header>    
     <nav class="navbar navbar-expand-lg" style ="background-color: #4F7942;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Chris Vega</a>
+        <a class="navbar-brand Nunito" style="font-family: 'Nunito', sans-serif;" href="#">Chris Vega</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -42,17 +47,19 @@
     </nav>
   </header>
 
+<body style="padding-top: 100px";> 
+
   <!-- Image of me -->
-  <section class="hero text-center py-5 bg-light">
-    <img
-      src="#"
-      alt="Portrait of Chris Vega"
-      class="rounded-circle border shadow mb-3"
-      style="width: 160px; height: 160px;"
-    />
-    <h1 class="text-primary">Hello, I'm Chris Vega</h1>
-    <p class="lead"></p>
-  </section>
+<section class="text-center py-5 bg-light">
+  <img
+    src="#"
+    alt="Portrait of Chris Vega"
+    class="rounded-circle border shadow mb-3"
+    style="width: 160px; height: 160px;"
+  />
+  <h1 class="text-primary">Hello, I'm Chris Vega</h1>
+  <p class="lead">[Add your intro here]</p>
+</section>
 
   <!-- About Me -->
   <section class="about container py-4" id="about">
@@ -61,15 +68,32 @@
 I am a college-student at Wesleyan University entering my sophomore year as a prospective computer science major this fall. I’m not sure which route I want to take with computer science/technology in the future, but I know I want to create a non-profit organization focused on providing computer science opportunities to areas that don’t have many opportunities present/available. On the personal side, I really like learning new languages, playing guitar, baking, and hiking. I am currently enrolled in Dev/Mission's Pre-Apprenticeship program, where I am building new and improving skills.     </p>
   </section>
 
+  <section>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+</section>
+
 <!-- Personal Philosophy-->
 <section class ="container py-4 bg-secondary">
   <h2 class="text-secondary">Personal Philosophy</h2>
   <div class="d-flex justify-content-center">
   <div class="card card-body-center" style="width: 18rem;">
-  <img class="card-img-top" src="#" alt="Card image cap">
+  <img class="card-img-top" src="#" alt="">
   <div class="card-body">
     <h5 class="card-title">Personal Philosophy</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">While you can't say yes to everything that comes your way, try to take every opportunity available that you can. Learning something new and putting it into practice leads to growth—and even a tiny improvement, just 0.01% a day, adds up. With consistency, that 0.1% becomes a total of 44% improvement by the end of a year. </p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
  </div>
@@ -96,34 +120,30 @@ I am a college-student at Wesleyan University entering my sophomore year as a pr
     <h2 class="text-secondary">Projects</h2>
     <ol class="list-group list-group-numbered">
       <li class="list-group-item">
-        <strong>Web App Final Project:</strong> A productivity tracker app using timers and tags.  
-        <a href="#" class="btn btn-sm btn-outline-primary mt-2">View Web App</a>
+        <strong>Web App Final Project:</strong> d 
+        <a href="#" class="btn btn-sm btn-outline-primary mt-2">View </a>
       </li>
       <li class="list-group-item">
-        <strong>IoT Final Project:</strong> Smart plant watering system using soil moisture sensors.  
-        <a href="#" class="btn btn-sm btn-outline-success mt-2">View IoT Project</a>
+        <strong>d</strong>   
+        <a href="#" class="btn btn-sm btn-outline-success mt-2">View </a>
       </li>
     </ol>
   </section>
 
   <!-- Contact -->
   <section class="contact container text-center py-4" id="contact">
-    <h2 class="text-secondary">Contact</h2>
+    <h2 class="text-secondary">Get in Touch</h2>
     <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
+    <label for="exampleInputEmail1">Name</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
+    <label for="exampleInputPassword1">Email Address</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Send</button>
 </form>
   </section>
 
